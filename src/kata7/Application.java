@@ -7,13 +7,14 @@ import java.util.Map;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import kata7.application.swing.HistogramPanel;
+import kata7.application.swing.Toolbar;
 import kata7.control.CalculateCommand;
 import kata7.control.Command;
 import kata7.view.AttributeDialog;
 import kata7.view.HistogramDisplay;
 import kata7.view.PopulationDialog;
 
-public class kata7 extends JFrame {
+public class Application extends JFrame {
 
     private AttributeDialog attributeDialog;
     private PopulationDialog populationDialog;
